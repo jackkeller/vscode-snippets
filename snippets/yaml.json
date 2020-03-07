@@ -1,0 +1,68 @@
+{
+	"Netlify CMS String Field": {
+		"prefix": "string",
+		"body": [
+			"- { label: \"$1\", name: \"$1\",  widget: \"${2:string}\", required: ${3:false} }"
+		],
+		"description": "Netlify CMS String Field"
+	},
+	"Netlify CMS Select Field": {
+		"prefix": "select",
+		"body": [
+			"- label: \"$1\"",
+			"  name: \"$1\"",
+			"  widget: \"select\"",
+			"  options:",
+			"    - { label: \"$2\", value: \"$2\" }",
+			"    - { label: \"$3\", value: \"$3\" }"
+		],
+		"description": "Netlify CMS Select Field"
+	},
+	"Netlify CMS Location Map": {
+		"prefix": "map",
+		"body": [
+			"- { label: \"Location\", name: \"location\", widget: \"map\" }"
+		],
+		"description": "Netlify CMS Location Map"
+	},
+	"Netlify CMS Image": {
+		"prefix": "image",
+		"body": [
+			"- label: \"${1:Image Label}\"",
+			"  name: \"${2:image}\"",
+			"  widget: \"image\"",
+			"  media_library:",
+			"    config:",
+			"      multiple: ${3:true}"
+		],
+		"description": "Netlify CMS Image"
+	},
+	"Netlify CMS Boolean": {
+		"prefix": "bool",
+		"body": [
+			"- { label: \"${1:Thing}\", name: \"${2:thing}\", widget: \"boolean\", default: ${3:true} }"
+		],
+		"description": "Netlify CMS Boolean"
+	},
+	"Netlify CMS Hidden": {
+		"prefix": "hidden",
+		"body": [
+			"- { label: \"${1:Hidden}\", name: \"${2:layout}\", widget: \"hidden\", default: \"${3:page}\" }"
+		],
+		"description": "Netlify CMS Hidden"
+	},
+	"Netlify CMS Textarea": {
+		"prefix": "text",
+		"body": [
+			"- { label: \"${1:Description}\", name: \"${2:description}\", widget: \"text\" }"
+		],
+		"description": "Netlify CMS Textarea"
+	},
+	"Netlify CMS Markdown": {
+		"prefix": "markdown",
+		"body": [
+			"- { label: '${1:Event Details}', name: '${2:body}', widget: 'markdown' }"
+		],
+		"description": "Netlify CMS Markdown"
+	}
+}
