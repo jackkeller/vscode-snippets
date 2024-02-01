@@ -1,0 +1,27 @@
+{
+  "Stringify": {
+    "prefix": "_string",
+    "body": ["JSON.stringify($TM_SELECTED_TEXT, null, 2)"],
+    "description": "Stringify"
+  },
+  "Print to console": {
+    "prefix": "_log",
+    "body": ["console.log($TM_SELECTED_TEXT)"],
+    "description": "Print to console"
+  },
+  "New Date": {
+    "prefix": "_date",
+    "body": ["const date = new Date();", "console.log(date);"],
+    "description": "Create a new Date object and log it to the console"
+  },
+  "Fetch API": {
+    "prefix": "_fetch",
+    "body": [
+      "fetch('$1')",
+      "  .then(response => response.json())",
+      "  .then(data => console.log(data))",
+      "  .catch(error => console.error(error));"
+    ],
+    "description": "Fetch data from an API and log the response"
+  }
+}

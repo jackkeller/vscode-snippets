@@ -21,3 +21,8 @@ But if you **DO** care, then have a bit of fun peeking into the snippets folder,
 Also, there is a pretty handy tool to help you out with escaping the code and newlines in a sane way if you visit [snippet generator](https://snippet-generator.app/) and you can generate snippets for VSCode, Sublime Text, and Atom!
 
 Cheers, if you have some fun snippets you'd like to see added submit a PR and I'll take a look!
+
+## Snippets
+
+- [Javascript](./snippets/javascript.json)
+- [YAML](./snippets/yaml.json)
